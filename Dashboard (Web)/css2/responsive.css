@@ -1,0 +1,65 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .container{width: 1230px}
+    .slider-content h1 {font-size: 40px}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container{width: 970px}
+    .banner-content h1 {font-size: 50px; margin-bottom: 10px}
+    .blog-right h3 a {font-size: 20px}
+    .slider-content h1 {font-size: 30px}
+    .single-content ul {padding: 20px 0 20px 15px}
+    .single-content ul li{margin-right: 5px}
+    .blog-content h6 {display: none}
+    .blog-content {padding: 12px 30px}
+    .game img{width: 100%}
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{width:750px} 
+    .banner-content h1 {font-size: 50px; margin-bottom: 10px}
+    .game img, .blog-pic.single-img > img{width: 100%}
+    .about-content{margin-bottom: 30px}
+    .blog-area .col-md-6:last-child .single-blog{margin-top: 30px}
+    .about-video{display: block;}
+    .blog-content { margin-top: 60px}
+    .single-testimonial {padding: 48px 35px}
+    #mc-form {width: 625px}
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {width:300px}
+    .slider-area {height: 430px;}
+    .slider-content h1{font-size: 25px}
+    .slider-content h5{display: none}
+    .about-content > h2, .section-title h2 {font-size: 22px}
+    .about-content, .single-class, .single-trainer, .grid .grid-item:nth-child(4), .grid .grid-item:nth-child(5), .grid .grid-item:nth-child(7), .grid .grid-item:nth-child(8), .blog-area .col-md-6, .about-content {margin-bottom: 30px}
+    .single-table, .single-footer-widget{margin-bottom: 50px}
+    .col-md-4:last-child .single-class, .col-md-4:last-child .single-trainer, .col-md-6:last-child .single-blog, .blog-area .col-md-6:last-child, .col-md-4:last-child .single-table, .col-md-4:last-child .single-footer-widget{margin-bottom: 0px}
+    .event-content p {padding: 0 15px}
+    .blog-pic, .blog-pic.single-img > img, .blog-content, .single-trainer.text-center > img, .single-img img, .portfolio-img.single-img > img, .portfolio-img.single-img, .single-img {width: 100%}
+    .single-testimonial {margin: 50px 35px; padding: 69px 15px}
+    #mc-form {width: 300px}
+    .newsletter-wrapper{padding: 55px 10px}
+    #mc-form {width: 260px}
+    .single-content ul li {line-height: 26px}
+    .about-area.pt-95.pb-100 {padding-top: 30px}
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    #mc-form > input {width: 350px}
+    .about-content > h2, .section-title h2 {font-size: 28px}
+    .event-wrapper {padding: 30px 50px}
+    #mc-form {width: 365px}
+    #img_logo{
+        max-width: 20%;
+    }
+}

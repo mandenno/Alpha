@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hist"
+            android:icon="@drawable/history"
+            android:title="Donation History" />
+        <item
+            android:id="@+id/myrec"
+            android:icon="@drawable/track"
+            android:title="Donation Tracker" />
+        <item
+            android:id="@+id/badges"
+            android:icon="@drawable/badge"
+            android:title="My badges" />
+        <item
+            android:id="@+id/campagins"
+            android:icon="@drawable/camp"
+            android:title="Donation Campaigns" />
+        <item
+            android:id="@+id/storage"
+            android:icon="@drawable/chart"
+            android:title="Blood statistics" />
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/faqs"
+            android:title="FAQs" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

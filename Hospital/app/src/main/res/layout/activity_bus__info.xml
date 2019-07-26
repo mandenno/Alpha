@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="match_parent"
+    tools:context=".Bus_Info">
+
+    <TextView
+        android:id="@+id/donor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Business Name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/root"
+        android:layout_below="@+id/donor_name"
+        android:stretchColumns="*"
+       >
+        <TableRow android:layout_margin="0dip"
+            android:id="@+id/first_row">
+            <TextView android:id="@+id/permit_no"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip" />
+            <TextView android:id="@+id/cert_no"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip" />
+
+        </TableRow>
+        <TableRow android:layout_margin="0dip"
+            android:layout_marginTop="10dp"
+            android:id="@+id/row2">
+            <TextView android:id="@+id/bus_loc"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip" />
+            <TextView android:id="@+id/amount_paid"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip" />
+
+        </TableRow>
+
+        <TableRow android:layout_margin="0dip"
+            android:layout_marginTop="10dp"
+            android:id="@+id/row3">
+
+            <TextView
+                android:id="@+id/doi"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip"
+                android:text="www" />
+            <TextView android:id="@+id/doe"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip" />
+
+        </TableRow>
+
+        <TableRow android:layout_margin="1dip"
+            android:layout_marginTop="10dp"
+            android:id="@+id/row4">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="0dip"
+                android:layout_height="180dp"
+                android:layout_weight="1"
+                android:padding="15dip" />
+            <TextView android:id="@+id/plot_no"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="15dip" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="printDocument"
+        android:background="@mipmap/shapeit"
+        android:text="PRINT RECEIPT"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

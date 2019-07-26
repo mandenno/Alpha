@@ -1,0 +1,189 @@
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlfield"
+
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/bax"
+        app:elevation="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_donorreg"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign Up"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+android:layout_below="@+id/bax"
+        android:layout_height="100dp"
+
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/qricon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="52dp"
+            android:src="@drawable/create" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="24dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="19dp"
+            android:text="Create Donor Account"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlx"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/bax"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/donor_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/donor_age"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="#E3F2FD"
+            android:ems="10"
+            android:hint="Phone Number*"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/donor_name"
+            android:layout_width="407dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="#E3F2FD"
+            android:ems="10"
+            android:hint="Donor name*"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/donor_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/donor_name"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="3dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="#E3F2FD"
+            android:ems="10"
+            android:hint="Donor ID*"
+            android:inputType="number"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/donor_age"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/donor_id"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="3dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="#E3F2FD"
+            android:ems="10"
+            android:hint="Age*"
+            android:inputType="number"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/donor_weight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/donor_age"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="3dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="#E3F2FD"
+            android:ems="10"
+            android:hint="Weight (Kgs)*"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="65dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="REGISTER"
+            android:textColor="@color/button_selectorcolor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/already"
+            android:layout_width="407dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="29dp"
+            android:text="Donor has an account? Proceed here."
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

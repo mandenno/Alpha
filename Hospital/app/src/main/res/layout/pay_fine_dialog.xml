@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="8dp"
+        android:id="@+id/lowerx"
+        android:layout_marginTop="10dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:clipToPadding="false"
+        android:layout_centerVertical="true"
+        card_view:cardCornerRadius="10dp"
+        android:clipChildren="false"
+        card_view:cardElevation="20dp"
+        card_view:cardPreventCornerOverlap="false"
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="8dp"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+    >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Pay Fine Via Mpesa"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/et_phone_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@mipmap/shapeit"
+            android:backgroundTint="#EEEEEE"
+            android:hint="Enter phone number"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/root"
+            android:layout_below="@+id/donor_name"
+            android:stretchColumns="*"
+            >
+        <TableRow android:layout_margin="0dip"
+            android:id="@+id/first_row">
+            <Button
+                android:id="@+id/btn_pay_now"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_width="10dp"
+                android:layout_weight="1"
+                android:background="@mipmap/shapeit"
+                android:backgroundTint="@color/colorPrimary"
+
+                android:text="PAY"
+                android:textColor="@android:color/white" />
+
+            <TextView />
+            <Button
+                android:id="@+id/clear"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_width="10dp"
+                android:layout_weight="1"
+                android:background="@mipmap/shapeit"
+                android:backgroundTint="@color/btn_disabled"
+
+                android:text="CANCEL"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

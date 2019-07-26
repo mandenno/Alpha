@@ -1,0 +1,111 @@
+/* -----------------------------------
+Template Name: Handstand - Gym & Fitness HTMP Template
+Template URI: https://devitems.com/html/coffee-preview/
+Description: This is html5 template
+Author: HasTech
+Author URI: https://devitems.com/
+Version: 1.0
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+.single-footer-widget > a > img {
+    margin-bottom: 25px;
+}
+.single-footer-widget > h3 {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.twitt-icon{
+    float: left;
+    margin-right: 20px;
+}
+.twitt-icon i{
+    font-size: 16px;
+    color: #666666;
+    top: 6px;
+    position: relative;
+}
+.twitt-content{display: table-cell}
+.single-footer-widget > p {
+    color: #7f7f7f;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+.twitt-content p{margin-bottom: 0px}
+.twitt-content a {
+    color: #5fc7ae;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    line-height: 22px; 
+}
+.single-footer-widget ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-footer-widget ul li{
+    display: block;
+    margin-bottom: 14px;
+    color: #7f7f7f;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+.single-footer-widget ul li i{
+    color: #666666;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.single-footer-widget > p.margin {margin-bottom: 24px;}
+.single-footer-widget input, .single-footer-widget textarea{
+    border: 1px solid #E5E5E5;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.single-footer-widget textarea {
+  height: 90px;
+}
+.single-footer-widget button, .contact-form button{
+    background: #5FC7AE none repeat scroll 0 0;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 70px;
+    border: 1px solid #5FC7AE;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.single-footer-widget button:hover, .contact-form button:hover{
+    color: #5FC7AE;
+    background: transparent;
+}
+.single-footer-widget input:focus{
+    border: 1px solid #5FC7AE;
+}
+.mailchimp-alerts {color: #ffffff; padding-top: 15px;}
+.footer-text > span {
+  color: #f5f5f5;
+  display: block;
+  font-size: 13px;
+  line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.footer-text, .footer-text a {
+    color: #fff;
+    font-weight: 700;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.footer-text a:hover {border-bottom: 1px solid #fff}
+.footer-text-area {
+  background: #5FC7AE none repeat scroll 0 0;
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".Business_Details">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="LODGE CASE"
+
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="This business permit is Invalid"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="17dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/case_no"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/shapeit"
+        android:drawableLeft="@drawable/ic_security"
+        android:backgroundTint="#F5F5F5"
+        android:ems="16"
+        android:hint="Case no"
+        android:inputType="none"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="60dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/court_date"
+        android:layout_below="@+id/case_no"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/shapeit"
+        android:backgroundTint="#F5F5F5"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_date"
+        android:ems="16"
+        android:hint="Court Date"
+        android:inputType="none"
+        android:padding="10dp"
+        android:layout_height="60dp" />
+
+    <EditText
+        android:id="@+id/cust_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/court_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/shapeit"
+        android:backgroundTint="#F5F5F5"
+        android:drawableLeft="@drawable/ic_person"
+        android:ems="16"
+        android:hint="Enter Customer Name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/cust_phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cust_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/shapeit"
+        android:backgroundTint="#F5F5F5"
+        android:drawableLeft="@drawable/ic_phone"
+        android:ems="16"
+        android:hint="Enter Customer phone"
+        android:inputType="phone"
+        android:padding="10dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@mipmap/shapeit"
+        android:backgroundTint="#F5F5F5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/cust_phone"
+        android:id="@+id/listx"
+
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:entries="@array/mistake_list"
+
+            android:prompt="@string/select_mistake" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/bus_desc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/listx"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/shapeit"
+        android:backgroundTint="#F5F5F5"
+        android:drawableLeft="@drawable/ic_edit"
+        android:ems="16"
+        android:hint="Short description about the busisness"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/lodge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bus_desc"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/shapeit"
+        android:text="LODGE CASE"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

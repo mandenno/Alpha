@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "945177418270",
+    "firebase_url": "https://space-d10fa.firebaseio.com",
+    "project_id": "space-d10fa",
+    "storage_bucket": "space-d10fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945177418270:android:d5899ff662f34d25",
+        "android_client_info": {
+          "package_name": "com.swahilibox.mobile.vision.qrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945177418270-ksveeevnk8v1p21bseq22e6rb1gc7stk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHaa41TSgXRHXNdRC28Jy8nzYg6yvUucs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945177418270-ksveeevnk8v1p21bseq22e6rb1gc7stk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945177418270:android:3aa11c03b2465c86",
+        "android_client_info": {
+          "package_name": "space.swahilibox.com.eventapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945177418270-ksveeevnk8v1p21bseq22e6rb1gc7stk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHaa41TSgXRHXNdRC28Jy8nzYg6yvUucs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945177418270-ksveeevnk8v1p21bseq22e6rb1gc7stk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

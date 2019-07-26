@@ -1,0 +1,147 @@
+/* -----------------------------------
+Template Name: Handstand - Gym & Fitness HTMP Template
+Template URI: https://devitems.com/html/coffee-preview/
+Description: This is html5 template
+Author: HasTech
+Author URI: https://devitems.com/
+Version: 1.0
+NOTE: This is Slider style file. All Slider related style included in this file.
+
+--------------------------------------*/
+.slider-area {position: relative; overflow: hidden;}
+.slider-area img {width: 100%;}
+.slider-area, .slider-content,.single-slide, .owl-item, .owl-stage, .slider-wrapper, .owl-stage-outer, .slider-content .container, .slider-content .row, .slider-content .col-lg-7, .slider-content .text-content-wrapper, .slider-content .text-content, .slider-content .display-table, .slider-content .display-table-cell{
+    height: 100%;
+} 
+.slider-content{z-index: 99; position: relative}
+.text-content-wrapper, .slider-area img {width: 100%;}
+.slider-content .text-content-wrapper {display: table;}
+.slider-content .text-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-btn {
+  background: transparent;
+  color: #666666;
+  display: inline-block;
+  border: 1px solid #5FC7AE;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 36px;
+  overflow: hidden;
+  padding: 0 30px;
+  border-radius: 25px;
+  position: relative;
+    text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.banner-btn::after {
+    content: attr(data-text);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-30%, 0px);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.banner-btn span {
+    transition: all 0.3s ease 0s;
+}
+.banner-btn:hover {
+    background: rgba(95, 199, 174, 0.5);
+}
+.banner-btn:hover > span {
+    opacity: 0;
+    transform: translate(0px, 40px);
+}
+.banner-btn:hover::after {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.slider-content h5{
+    font-size: 16px;
+    color: #7f7f7f;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.slider-content h1 {
+    color: #666666;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.slider-content h1 span{
+    color: #5fc7ae;
+}
+.slider-content p {
+  color: #7f7f7f;
+  font-size: 16px;
+  margin-bottom: 32px;
+  font-family: 'Lato', sans-serif;
+}
+.slider-area .owl-item.active .slider-content h5, .slider-area .owl-item.active .slider-content h3, .slider-area .owl-item.active .slider-content h1, .slider-area .owl-item.active .slider-content p, .slider-area .owl-item.active .slider-content .banner-btn{
+    -webkit-animation: 1000ms ease-in-out 0s normal both 1 running fadeInUp;
+            animation: 1000ms ease-in-out 0s normal both 1 running fadeInUp;
+} 
+.slider-area .owl-item.active .slider-content h5 {-webkit-animation-delay: 600ms;animation-delay: 600ms} 
+.slider-area .owl-item.active .slider-content h1 {-webkit-animation-delay: 800ms;animation-delay: 800ms} 
+.slider-area .owl-item.active .slider-content p {-webkit-animation-delay: 1000ms;animation-delay: 1000ms}
+.slider-area .owl-item.active .slider-content h3 {-webkit-animation-delay: 1400ms;animation-delay: 1400ms}  
+.slider-area  .owl-item.active .slider-content .banner-btn {-webkit-animation-delay: 1500ms;animation-delay: 1500ms} 
+.owl-nav div {
+    background: rgba(95, 199, 174, 0.4);
+    color: #5FC7AE;
+    font-size: 30px;
+    border-radius: 3px;
+    height: 40px;
+    left: -46px;
+    line-height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+    z-index: 999;
+}
+.owl-nav .owl-next {left: auto; right: -46px;}
+.slider-area:hover .owl-nav div {left: 0;}
+.slider-area:hover .owl-nav .owl-next {left: auto;  right: 0;}
+.owl-nav div:hover{background: rgba(95, 199, 174, 0.2); color: #fff}
+.single-slide{background-position: top center; background-size: cover}
+.one-page-arrow{
+    border: 1px solid #5FC7AE;
+    height: 32px;
+    width: 16px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: -4px;
+    left: 50%;
+    bottom: 20px;
+}
+.one-page-arrow i {
+  color: #666666;
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  opacity: 1;
+}

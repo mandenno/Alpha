@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Favs">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/scanqr"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_refresh_main"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        />
+
+</menu>

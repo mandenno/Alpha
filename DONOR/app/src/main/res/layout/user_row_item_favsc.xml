@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@android:color/white"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    >
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/thumbnailf"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3dp" />
+
+    <TextView
+        android:id="@+id/campaign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/thumbnailf"
+        android:layout_toRightOf="@+id/thumbnailf"
+        android:fontFamily="@font/lato"
+        android:text="Subject"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campaign"
+        android:layout_alignParentEnd="true"
+        android:padding="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/thumbnailf"
+        android:fontFamily="@font/lato"
+        android:text="Description"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/description"
+        android:layout_alignStart="@+id/description"
+        android:layout_alignLeft="@+id/description"
+        android:fontFamily="@font/lato"
+        android:text="Campaign"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/datereg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_alignStart="@+id/location"
+        android:layout_alignLeft="@+id/location"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="6dp"
+        android:padding="2dp"
+        android:text="TextView"
+        android:textAlignment="textEnd" />
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>

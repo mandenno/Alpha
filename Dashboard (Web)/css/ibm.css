@@ -1,0 +1,48 @@
+#blood_img{
+    height: 370px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+#logos{
+    max-width: 450px;
+}
+#div_blood{
+    justify-content: center;
+    text-align: center;
+}
+.form-control-user{
+    color: #AE3E48;
+}
+#exampleInputPassword{
+    text-align: left;
+}
+#login_button{
+    background-color: #fff;
+    border: 2px solid #AE3E48;
+    color: #AE3E48;
+}
+#login_button:hover{
+    background-image: linear-gradient(to bottom right, #990000, #b30000, #f00, #f00);
+    color: #fff;
+    transition: .9s ease-in;
+}
+
+:root { 
+    /*--grad-start: hsl(0, 0%, 100%);*/
+    /* --grad-start: rgb(204, 0, 38);
+    --grad-end: rgb(255, 0, 0), rgba(255, 0, 0, .999), rgba(255, 0, 0, .99), rgba(255, 0, 0), rgba(255, 0, 0), rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.2); */
+}
+
+#b_login {
+    background: #fff;
+}
+
+/*  */
+
+#accordionSidebar{
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.btn-secondary{
+    background-image: linear-gradient(to bottom right, #AE3E48, #f00, #f00);
+}

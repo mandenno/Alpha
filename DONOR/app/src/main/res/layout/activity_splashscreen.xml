@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:src="@drawable/alphax" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      android:layout_below="@+id/appname"
+        android:gravity="center_horizontal"
+        android:text="Every blood donor is a life saver."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/lato"
+        android:text="ALPHA"
+        android:textAlignment="center"
+        android:textColor="@color/button_selectorcolor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
